@@ -23,7 +23,7 @@
                             <h5 class="font-weight-bold">Modify Category</h5>
                             
                             <!--form-->
-                            <form action="{% url 'edit_category' category.id%}" method="POST">
+                            <form action="{% url 'edit_category' category.id %}" method="POST">
                                 {% csrf_token %}
                                 <div class="form-fields-set">
                                     <div class="row">
