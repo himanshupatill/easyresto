@@ -236,6 +236,7 @@ $(document).ready(function(){
 
         console.log(day, from_hour, to_hour, is_closed, csrf_token)
 
+        
         if(is_closed){
             is_closed = 'True'
             condition = "day != ''"
@@ -271,9 +272,10 @@ $(document).ready(function(){
                 }
             })
         }else{
-            swal('Please fill all fields', '', 'info')
+            swal('Please Fill All Fields', '', 'info');
         }
-    });
+
+    })
 
     // REMOVE OPENING HOUR
     $(document).on('click', '.remove_hour', function(e){
@@ -290,6 +292,5 @@ $(document).ready(function(){
             }
         })
     })
-
    // document ready close 
 });
