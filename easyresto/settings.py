@@ -23,6 +23,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'customers'
     'django.contrib.gis',
     'accounts',
     'vendor',
