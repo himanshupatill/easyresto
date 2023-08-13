@@ -8854,9 +8854,7 @@
         }
     });
 }));
-// moment.js locale configuration
-// locale : tamil (ta)
-// author : Arjunkumar Krishnamoorthy : https://github.com/tk120404
+
 
 (function (factory) {
     factory(moment);
